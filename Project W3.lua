@@ -61,10 +61,11 @@ local Section = Tab:AddSection({
 Name = <string> - The name of the section.
 ]]
 Tab:AddButton({
-	Name = "Auto Area",
-	Callback = function(Value)
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/tobi437a/Scripts/main/2955a076eeadcb314ad0de27.lua'))()
-		end    
+    Name = "Start Duping",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/tobi437a/Scripts/main/2955a076eeadcb314ad0de27.lua'))()
+      end
+})
 	})
 --[[
 Name = <string> - The name of the toggle.
